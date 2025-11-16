@@ -3,12 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  apiKey: "AIzaSyDWz2clC_hD0Omu1EK4cgyDFHjhsycr9KU",
+  authDomain: "recipe-sharing-499d1.firebaseapp.com",
+  projectId: "recipe-sharing-499d1",
+  storageBucket: "recipe-sharing-499d1.firebasestorage.app",
+  messagingSenderId: "610502093212",
+  appId: "1:610502093212:web:a4e5b371ebda9727600059",
+  measurementId: "G-HP4E6523P8"
 };
 
 const app = initializeApp(firebaseConfig);
